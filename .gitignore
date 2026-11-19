@@ -1,0 +1,12 @@
+# Build artifacts
+target/
+**/target/
+*.exe
+*.pdb
+
+# IDE
+.idea/
+*.iml
+
+# Misc
+*.rs.bk

@@ -1,0 +1,16 @@
+# Auto detect text files and perform LF/CRLF conversion
+* text=auto
+
+# Rust source files
+*.rs text
+
+# Cargo files
+Cargo.toml text
+Cargo.lock text
+
+# Markdown
+*.md text
+
+# IDE files
+*.iml text
+*.xml text
