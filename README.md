@@ -2,6 +2,12 @@
 
 This is my one and only Rust learning library. It may eventually receive small projects, but it'll be mostly testing code with explanatory annotations to myself.
 
+ve been using the following video to learn Rust:
+
+[Rust Programming Full Course | Learn ⚙️ in 2024](https://www.youtube.com/watch?v=rQ_J9WH6CGk)
+
+Thanks for the amazing video!
+
 Feel free, if you have nothing to do, to follow my learning journey. I'll leave the order of making these projects below, I'll try to keep the following route updated.
 
 ---
