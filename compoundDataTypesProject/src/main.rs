@@ -57,9 +57,12 @@ fn main() {
 
     let mut string: String = String::from("Hello, world!");
     let slice: &str = &string[0..5];
-    // string = "I am a string!".to_string(); <= This wouldn't work, because the borrow is used later
+    // string = "I am a string!".to_string(); <= This wouldn't work, because the borrow is used
+    // later
     println!("Slice value: {}", slice);
-    println!("Slice value: {}", &slice[0..2]); // This makes a &str borrow from "slice" (which is a borrow, by itself)
+    println!("Slice value: {}", &slice[0..2]); // This makes a &str borrow from "slice" (which is a
+                                               // borrow, by itself)
+
     // You can't mutate or reassign the owner until the borrow is last used
     string = "I am a string!".to_string(); // Since "slice" isn't used anymore, this works
     println!("String: {}", string);
