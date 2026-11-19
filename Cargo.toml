@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "helloProject",
+    "primitiveDataTypesProject",
+    "compoundDataTypesProject"
+]
