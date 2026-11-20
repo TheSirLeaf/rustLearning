@@ -22,3 +22,6 @@ Feel free, if you have nothing to do, to follow my learning journey. I'll leave 
 > Testing with compound data types and the concept of borrowing. Includes basic usage of arrays, tuples, slices, the `&str` and `String` types.
 > 
 > Also treats with basic mutation and reassignment of owned and borrowed variables.
+
+## functionsProject
+> Testing with functions, return values, and string formatting. Covers function parameters, the difference between expressions and statements, and basic math functions like BMI calculation.
