@@ -25,3 +25,6 @@ Feel free, if you have nothing to do, to follow my learning journey. I'll leave 
 
 ## functionsProject
 > Testing with functions, return values, and string formatting. Covers function parameters, the difference between expressions and statements, and basic math functions like BMI calculation.
+
+## ownershipProject
+> Exploring Rust's ownership system, borrowing, and references. Covers the three ownership rules, memory safety without a garbage collector, and the concepts of value moves and scope-based dropping.

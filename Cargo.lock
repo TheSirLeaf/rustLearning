@@ -15,5 +15,9 @@ name = "helloProject"
 version = "0.1.0"
 
 [[package]]
+name = "ownershipProject"
+version = "0.1.0"
+
+[[package]]
 name = "primitiveDataTypesProject"
 version = "0.1.0"
