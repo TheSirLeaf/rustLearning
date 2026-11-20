@@ -29,5 +29,8 @@ Feel free, if you have nothing to do, to follow my learning journey. I'll leave 
 ## ownershipProject
 > Exploring Rust's ownership system, borrowing, and references. Covers the three ownership rules, memory safety without a garbage collector, and the concepts of value moves and scope-based dropping.
 
+## variablesAndMutabilityProject
+> Learning about variables, mutability, and type inference. Covers immutable vs mutable variables, type inference vs explicit type annotations, variable shadowing, constants, and the difference between `mut` and `&mut`.
+
 ## borrowingAndReferencesProject
-> Deep dive into borrowing and references. Covers mutable vs immutable references, the borrowing rules, Non-Lexical Lifetimes (NLL), and the difference between `mut` and `&mut`. Introduces `struct` for defining custom data types and `impl` blocks for attaching methods.
+> Deep dive into borrowing and references. Covers mutable vs immutable references, the borrowing rules, Non-Lexical Lifetimes (NLL), and how borrows don't overlap when each call completes before the next. Introduces `struct` for defining custom data types and `impl` blocks for attaching methods.

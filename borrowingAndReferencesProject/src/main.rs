@@ -25,23 +25,6 @@ fn main(){
     // Rust's Non-Lexical Lifetimes (NLL) track the last use of a borrow, not the end of the scope.
 }
 
-// --- Mutability: `mut` and `&mut` ---
-// `mut` makes a variable reassignable — you can replace its entire value.
-//   let mut x = 5;  // x can be reassigned: x = 10;
-//
-// `&mut` creates a mutable reference (borrow) — you can modify the value it points to.
-//   let mut x = 5;  
-//   let r = &mut x; // r borrows x mutably
-//   *r += 1;        // x is now 6
-//
-// Key difference:
-//   `mut` on a variable → you can reassign the variable itself.
-//   `&mut` on a reference → you can mutate the data through the reference.
-//
-// In method signatures:
-//   `&self`   → the method only reads the struct (immutable borrow).
-//   `&mut self` → the method may modify the struct (mutable borrow).
-
 // A `struct` defines a custom data type by grouping named fields together.
 // Think of it like a blueprint: it describes what data a value contains.
 struct BankAccount {

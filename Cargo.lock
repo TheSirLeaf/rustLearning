@@ -25,3 +25,7 @@ version = "0.1.0"
 [[package]]
 name = "primitiveDataTypesProject"
 version = "0.1.0"
+
+[[package]]
+name = "variablesAndMutabilityProject"
+version = "0.1.0"
