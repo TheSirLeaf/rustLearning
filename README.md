@@ -32,5 +32,8 @@ Feel free, if you have nothing to do, to follow my learning journey. I'll leave 
 ## variablesAndMutabilityProject
 > Learning about variables, mutability, and type inference. Covers immutable vs mutable variables, type inference vs explicit type annotations, variable shadowing, constants, and the difference between `mut` and `&mut`.
 
+## constantsProject
+> Learning about constants in Rust. Covers the `const` keyword, the requirement for explicit type annotations, the `SCREAMING_SNAKE_CASE` naming convention, and module-level scope declarations.
+
 ## borrowingAndReferencesProject
 > Deep dive into borrowing and references. Covers mutable vs immutable references, the borrowing rules, Non-Lexical Lifetimes (NLL), and how borrows don't overlap when each call completes before the next. Introduces `struct` for defining custom data types and `impl` blocks for attaching methods.

@@ -4,5 +4,9 @@ members = [
     "helloProject",
     "primitiveDataTypesProject",
     "compoundDataTypesProject",
-    "functionsProject"
-, "ownershipProject", "borrowingAndReferencesProject", "variablesAndMutabilityProject"]
+    "functionsProject",
+    "ownershipProject",
+    "borrowingAndReferencesProject",
+    "variablesAndMutabilityProject",
+    "constantsProject"
+]
